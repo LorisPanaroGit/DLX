@@ -1,0 +1,696 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+source compile.tcl
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:27 on Jul 04,2022
+# vcom -reportprogress 300 constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 00:08:27 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:27 on Jul 04,2022
+# vcom -reportprogress 300 and_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity and_gate
+# -- Compiling architecture beh of and_gate
+# End time: 00:08:27 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:27 on Jul 04,2022
+# vcom -reportprogress 300 or_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity or_gate
+# -- Compiling architecture beh of or_gate
+# End time: 00:08:27 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:27 on Jul 04,2022
+# vcom -reportprogress 300 xor_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity xor_gate
+# -- Compiling architecture beh of xor_gate
+# End time: 00:08:27 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:28 on Jul 04,2022
+# vcom -reportprogress 300 shifter_dx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity shifter_dx
+# -- Compiling architecture beh of shifter_dx
+# End time: 00:08:28 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:28 on Jul 04,2022
+# vcom -reportprogress 300 shifter_sx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity shifter_sx
+# -- Compiling architecture beh of shifter_sx
+# End time: 00:08:28 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:28 on Jul 04,2022
+# vcom -reportprogress 300 sign_extension.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_extension
+# -- Compiling architecture BEH of sign_extension
+# End time: 00:08:28 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:28 on Jul 04,2022
+# vcom -reportprogress 300 mux11to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity mux11to1
+# -- Compiling architecture beh of mux11to1
+# End time: 00:08:28 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:28 on Jul 04,2022
+# vcom -reportprogress 300 mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# End time: 00:08:28 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:28 on Jul 04,2022
+# vcom -reportprogress 300 reg_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity REG_GEN
+# -- Compiling architecture REG_ASYNCH of REG_GEN
+# End time: 00:08:28 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:08:28 on Jul 04,2022
+# vcom -reportprogress 300 reg_gen1.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "reg_gen1.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 00:08:29 on Jul 04,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /software/mentor/questa10.7c/questasim/linux_x86_64/vcom failed.
+source compile.tcl
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:29 on Jul 04,2022
+# vcom -reportprogress 300 constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 00:09:29 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:29 on Jul 04,2022
+# vcom -reportprogress 300 and_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity and_gate
+# -- Compiling architecture beh of and_gate
+# End time: 00:09:29 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:30 on Jul 04,2022
+# vcom -reportprogress 300 or_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity or_gate
+# -- Compiling architecture beh of or_gate
+# End time: 00:09:30 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:30 on Jul 04,2022
+# vcom -reportprogress 300 xor_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity xor_gate
+# -- Compiling architecture beh of xor_gate
+# End time: 00:09:30 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:30 on Jul 04,2022
+# vcom -reportprogress 300 shifter_dx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity shifter_dx
+# -- Compiling architecture beh of shifter_dx
+# End time: 00:09:30 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:30 on Jul 04,2022
+# vcom -reportprogress 300 shifter_sx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity shifter_sx
+# -- Compiling architecture beh of shifter_sx
+# End time: 00:09:30 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:30 on Jul 04,2022
+# vcom -reportprogress 300 sign_extension.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_extension
+# -- Compiling architecture BEH of sign_extension
+# End time: 00:09:31 on Jul 04,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:31 on Jul 04,2022
+# vcom -reportprogress 300 mux11to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity mux11to1
+# -- Compiling architecture beh of mux11to1
+# End time: 00:09:31 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:31 on Jul 04,2022
+# vcom -reportprogress 300 mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# End time: 00:09:31 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:31 on Jul 04,2022
+# vcom -reportprogress 300 reg_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity REG_GEN
+# -- Compiling architecture REG_ASYNCH of REG_GEN
+# End time: 00:09:31 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:31 on Jul 04,2022
+# vcom -reportprogress 300 reg_gen1.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "reg_gen1.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 00:09:32 on Jul 04,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /software/mentor/questa10.7c/questasim/linux_x86_64/vcom failed.
+source compile.tcl
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:39 on Jul 04,2022
+# vcom -reportprogress 300 constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 00:09:40 on Jul 04,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:40 on Jul 04,2022
+# vcom -reportprogress 300 and_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity and_gate
+# -- Compiling architecture beh of and_gate
+# End time: 00:09:40 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:40 on Jul 04,2022
+# vcom -reportprogress 300 or_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity or_gate
+# -- Compiling architecture beh of or_gate
+# End time: 00:09:40 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:40 on Jul 04,2022
+# vcom -reportprogress 300 xor_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity xor_gate
+# -- Compiling architecture beh of xor_gate
+# End time: 00:09:40 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:40 on Jul 04,2022
+# vcom -reportprogress 300 shifter_dx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity shifter_dx
+# -- Compiling architecture beh of shifter_dx
+# End time: 00:09:40 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:40 on Jul 04,2022
+# vcom -reportprogress 300 shifter_sx.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity shifter_sx
+# -- Compiling architecture beh of shifter_sx
+# End time: 00:09:41 on Jul 04,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:41 on Jul 04,2022
+# vcom -reportprogress 300 sign_extension.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sign_extension
+# -- Compiling architecture BEH of sign_extension
+# End time: 00:09:41 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:41 on Jul 04,2022
+# vcom -reportprogress 300 mux11to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity mux11to1
+# -- Compiling architecture beh of mux11to1
+# End time: 00:09:41 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:41 on Jul 04,2022
+# vcom -reportprogress 300 mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# End time: 00:09:41 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:41 on Jul 04,2022
+# vcom -reportprogress 300 reg_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity REG_GEN
+# -- Compiling architecture REG_ASYNCH of REG_GEN
+# End time: 00:09:41 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:41 on Jul 04,2022
+# vcom -reportprogress 300 registerfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_file
+# -- Compiling architecture BEHAVIORAL of register_file
+# End time: 00:09:41 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:41 on Jul 04,2022
+# vcom -reportprogress 300 comparator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity comparator
+# -- Compiling architecture beh of comparator
+# End time: 00:09:41 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:42 on Jul 04,2022
+# vcom -reportprogress 300 branch_block.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity branch_block
+# -- Compiling architecture struct of branch_block
+# End time: 00:09:42 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:42 on Jul 04,2022
+# vcom -reportprogress 300 flip_flop.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flip_flop
+# -- Compiling architecture FF_ASYNCH of flip_flop
+# End time: 00:09:42 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:42 on Jul 04,2022
+# vcom -reportprogress 300 general_G.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity GENERAL_G
+# -- Compiling architecture BEHAVIORAL of GENERAL_G
+# End time: 00:09:42 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:42 on Jul 04,2022
+# vcom -reportprogress 300 general_PG.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity GENERAL_PG
+# -- Compiling architecture BEHAVIORAL of GENERAL_PG
+# End time: 00:09:42 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:42 on Jul 04,2022
+# vcom -reportprogress 300 PG_block.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity PG_block
+# -- Compiling architecture BEHAVIORAL of PG_block
+# End time: 00:09:42 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:42 on Jul 04,2022
+# vcom -reportprogress 300 CSblock.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity CSblock
+# -- Compiling architecture structural of CSblock
+# End time: 00:09:42 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:43 on Jul 04,2022
+# vcom -reportprogress 300 carry_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity CARRY_GENERATOR
+# -- Compiling architecture STRUCTURAL of CARRY_GENERATOR
+# End time: 00:09:43 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:43 on Jul 04,2022
+# vcom -reportprogress 300 fa.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA
+# -- Compiling architecture BEHAVIORAL of FA
+# -- Compiling configuration CFG_FA_BEHAVIORAL
+# -- Loading entity FA
+# -- Loading architecture BEHAVIORAL of FA
+# End time: 00:09:43 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:43 on Jul 04,2022
+# vcom -reportprogress 300 rca.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity RCA
+# -- Compiling architecture STRUCTURAL of RCA
+# End time: 00:09:43 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:43 on Jul 04,2022
+# vcom -reportprogress 300 sum_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity SUMGEN
+# -- Compiling architecture STRUCTURAL of SUMGEN
+# End time: 00:09:43 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:43 on Jul 04,2022
+# vcom -reportprogress 300 P4_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity P4_ADDER
+# -- Compiling architecture STRUCTURAL of P4_ADDER
+# End time: 00:09:43 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:44 on Jul 04,2022
+# vcom -reportprogress 300 alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity alu
+# -- Compiling architecture BEH of alu
+# End time: 00:09:44 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:44 on Jul 04,2022
+# vcom -reportprogress 300 executionUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity executionUnit
+# -- Compiling architecture struct of executionUnit
+# End time: 00:09:44 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:44 on Jul 04,2022
+# vcom -reportprogress 300 memoryUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity memoryUnit
+# -- Compiling architecture struct of memoryUnit
+# End time: 00:09:44 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:44 on Jul 04,2022
+# vcom -reportprogress 300 decodeUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity decodeUnit
+# -- Compiling architecture Behavioral of decodeUnit
+# End time: 00:09:44 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:44 on Jul 04,2022
+# vcom -reportprogress 300 fetchUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity fetchUnit
+# -- Compiling architecture Behavioral of fetchUnit
+# End time: 00:09:44 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:45 on Jul 04,2022
+# vcom -reportprogress 300 writeBackUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity writeBackUnit
+# -- Compiling architecture struct of writeBackUnit
+# End time: 00:09:45 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:45 on Jul 04,2022
+# vcom -reportprogress 300 myTypes.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package myTypes
+# End time: 00:09:45 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:45 on Jul 04,2022
+# vcom -reportprogress 300 a.b-DataPath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity datapath
+# -- Compiling architecture Behavioral of datapath
+# End time: 00:09:45 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:45 on Jul 04,2022
+# vcom -reportprogress 300 a.a-CU_HW.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package myTypes
+# -- Compiling entity dlx_cu
+# -- Compiling architecture dlx_cu_hw of dlx_cu
+# End time: 00:09:45 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 00:09:45 on Jul 04,2022
+# vcom -reportprogress 300 a-DLX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package myTypes
+# -- Compiling entity DLX
+# -- Compiling architecture dlx_rtl of DLX
+# End time: 00:09:45 on Jul 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit

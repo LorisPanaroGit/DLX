@@ -1,0 +1,53 @@
+####analyzing and checking VHDL netlist
+analyze -library WORK -format vhdl {00-constants.vhd}
+analyze -library WORK -format vhdl {00-myTypes.vhd}
+analyze -library WORK -format vhdl {02-and_gate.vhd}
+analyze -library WORK -format vhdl {12-or_gate.vhd}
+analyze -library WORK -format vhdl {18-xor_gate.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.c-executionUnit.core/a.a.c.b-shifter_dx.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.c-executionUnit.core/a.a.c.c-shifter_sx.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.b-decodeUnit.core/a.a.b.b-sign_extension.vhd}
+analyze -library WORK -format vhdl {10-mux11to1.vhd}
+analyze -library WORK -format vhdl {11-mux21_generic.vhd}
+analyze -library WORK -format vhdl {16-reg_gen.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.b-decodeUnit.core/a.a.b.a-registerfile.vhd}
+analyze -library WORK -format vhdl {04-comparator.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.d-memoryUnit.core/a.a.d.a-branch_block.vhd}
+analyze -library WORK -format vhdl {07-flip_flop.vhd}
+analyze -library WORK -format vhdl {08-general_G.vhd}
+analyze -library WORK -format vhdl {09-general_PG.vhd}
+analyze -library WORK -format vhdl {14-PG_block.vhd}
+analyze -library WORK -format vhdl {05-CSblock.vhd}
+analyze -library WORK -format vhdl {03-carry_generator.vhd}
+analyze -library WORK -format vhdl {06-fa.vhd}
+analyze -library WORK -format vhdl {15-rca.vhd}
+analyze -library WORK -format vhdl {17-sum_generator.vhd}
+analyze -library WORK -format vhdl {13-P4_adder.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.c-executionUnit.core/a.a.c.a-ALU.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.c-executionUnit.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.d-memoryUnit.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.b-decodeUnit.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.a-fetchUnit.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.core/a.a.e-writeBackUnit.vhd}
+analyze -library WORK -format vhdl {a.a-DataPath.vhd}
+analyze -library WORK -format vhdl {a.b-CU_HW.vhd}
+analyze -library WORK -format vhdl {a-DLX.vhd}
+
+###elaborate top entity
+elaborate DLX -architecture dlx_rtl -library WORK -parameters "nbit = 32"
+compile -exact_map
+report_timing > DLX_timing_no-constraints.rpt
+report_area > DLX_area_no-constraints.rpt
+report_power > DLX_power_no-constraints.rpt
+
+###create clock
+create_clock -name "Clk" -period 1.5 Clk
+
+###second compilation with clk constraint and save results
+compile -map_effort high
+report_clock > DLX_clockReport_no-opt.rpt
+report_timing > DLX_timing_clock-constraint.rpt
+report_area > DLX_area_clock-constraint.rpt
+report_power > DLX_power_clock-constraint.rpt
+
+

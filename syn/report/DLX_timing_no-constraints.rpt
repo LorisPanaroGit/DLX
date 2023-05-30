@@ -1,0 +1,49 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : DLX_nbit32
+Version: F-2011.09-SP3
+Date   : Mon Jul 11 15:29:35 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: CU_I/cw5_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: dlx_data_out[31]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  DLX_nbit32         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  CU_I/cw5_reg[1]/CK (DFFS_X2)                            0.00       0.00 r
+  CU_I/cw5_reg[1]/Q (DFFS_X2)                             0.21       0.21 r
+  CU_I/MEM_TO_REG_WB (dlx_cu_MICROCODE_MEM_SIZE45_FUNC_SIZE11_OP_CODE_SIZE6_IR_SIZE32_CW_SIZE13)
+                                                          0.00       0.21 r
+  DataPath_dlx/MemtoReg_wb (datapath_nbit32)              0.00       0.21 r
+  DataPath_dlx/WBU/MemtoReg (writeBackUnit_nbit32)        0.00       0.21 r
+  DataPath_dlx/WBU/mux_writeBack/SEL (MUX21_GENERIC_NBIT32_3)
+                                                          0.00       0.21 r
+  DataPath_dlx/WBU/mux_writeBack/U1/Z (MUX2_X1)           0.10       0.31 f
+  DataPath_dlx/WBU/mux_writeBack/Y[31] (MUX21_GENERIC_NBIT32_3)
+                                                          0.00       0.31 f
+  DataPath_dlx/WBU/WriteData[31] (writeBackUnit_nbit32)
+                                                          0.00       0.31 f
+  DataPath_dlx/pipe_out[31] (datapath_nbit32)             0.00       0.31 f
+  dlx_data_out[31] (out)                                  0.00       0.32 f
+  data arrival time                                                  0.32
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

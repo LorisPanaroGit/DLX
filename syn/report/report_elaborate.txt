@@ -1,0 +1,2014 @@
+Running PRESTO HDLC
+Compiling Package Declaration CONSTANTS
+Presto compilation completed successfully.
+Loading db file '/home/mariagrazia.graziano/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+Running PRESTO HDLC
+Compiling Package Declaration MYTYPES
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration AND_GATE
+Compiling Architecture BEH of AND_GATE
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration OR_GATE
+Compiling Architecture BEH of OR_GATE
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration XOR_GATE
+Compiling Architecture BEH of XOR_GATE
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration SHIFTER_DX
+Compiling Architecture BEH of SHIFTER_DX
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration SHIFTER_SX
+Compiling Architecture BEH of SHIFTER_SX
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration SIGN_EXTENSION
+Compiling Architecture BEH of SIGN_EXTENSION
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MUX11TO1
+Compiling Architecture BEH of MUX11TO1
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MUX21_GENERIC
+Compiling Architecture BEHAVIORAL of MUX21_GENERIC
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration REG_GEN
+Compiling Architecture REG_ASYNCH of REG_GEN
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration REGISTER_FILE
+Compiling Architecture BEHAVIORAL of REGISTER_FILE
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration COMPARATOR
+Compiling Architecture BEH of COMPARATOR
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration BRANCH_BLOCK
+Compiling Architecture STRUCT of BRANCH_BLOCK
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration FLIP_FLOP
+Compiling Architecture FF_ASYNCH of FLIP_FLOP
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration GENERAL_G
+Compiling Architecture BEHAVIORAL of GENERAL_G
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration GENERAL_PG
+Compiling Architecture BEHAVIORAL of GENERAL_PG
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration PG_BLOCK
+Compiling Architecture BEHAVIORAL of PG_BLOCK
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration CSBLOCK
+Compiling Architecture STRUCTURAL of CSBLOCK
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration CARRY_GENERATOR
+Compiling Architecture STRUCTURAL of CARRY_GENERATOR
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration FA
+Compiling Architecture BEHAVIORAL of FA
+Compiling Configuration CFG_FA_BEHAVIORAL of FA
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration RCA
+Compiling Architecture STRUCTURAL of RCA
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration SUMGEN
+Compiling Architecture STRUCTURAL of SUMGEN
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration P4_ADDER
+Compiling Architecture STRUCTURAL of P4_ADDER
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration ALU
+Compiling Architecture BEH of ALU
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration EXECUTIONUNIT
+Compiling Architecture STRUCT of EXECUTIONUNIT
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration MEMORYUNIT
+Compiling Architecture STRUCT of MEMORYUNIT
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration DECODEUNIT
+Compiling Architecture BEHAVIORAL of DECODEUNIT
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration FETCHUNIT
+Compiling Architecture BEHAVIORAL of FETCHUNIT
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration WRITEBACKUNIT
+Compiling Architecture STRUCT of WRITEBACKUNIT
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration DATAPATH
+Compiling Architecture BEHAVIORAL of DATAPATH
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration DLX_CU
+Compiling Architecture DLX_CU_HW of DLX_CU
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling Entity Declaration DLX
+Compiling Architecture DLX_RTL of DLX
+Presto compilation completed successfully.
+Loading db file '/software/synopsys/syn_current_64.11/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current_64.11/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Warning:  ./a-DLX.vhd:150: The initial value for signal 'CU_en2' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'DLX_nbit32'.
+Information: Building the design 'datapath' instantiated from design 'DLX_nbit32' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'flip_flop'. (HDL-193)
+
+Inferred memory devices in process
+	in routine flip_flop line 15 in file
+		'./flip_flop.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'dlx_cu' instantiated from design 'DLX_nbit32' with
+	the parameters "MICROCODE_MEM_SIZE=45,FUNC_SIZE=11,OP_CODE_SIZE=6,IR_SIZE=32,CW_SIZE=13". (HDL-193)
+Warning:  ./a.a-CU_HW.vhd:57: The initial value for signal 'cw_mem' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ./a.a-CU_HW.vhd:113: The initial value for signal 'aluOpcode_i' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ./a.a-CU_HW.vhd:114: The initial value for signal 'aluOpcode_3' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Statistics for case statements in always block at line 180 in file
+	'./a.a-CU_HW.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           182            |    auto/auto     |
+|           185            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine dlx_cu_MICROCODE_MEM_SIZE45_FUNC_SIZE11_OP_CODE_SIZE6_IR_SIZE32_CW_SIZE13 line 143 in file
+		'./a.a-CU_HW.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   aluOpcode_3_reg   | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    EN_REG_IF_reg    | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|    EN_REG_ID_reg    | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|       RD1_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       RD2_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       cw3_reg       | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       cw3_reg       | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       cw4_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       cw4_reg       | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       cw5_reg       | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|       cw5_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'fetchUnit' instantiated from design 'datapath_nbit32' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'decodeUnit' instantiated from design 'datapath_nbit32' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'executionUnit' instantiated from design 'datapath_nbit32' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'memoryUnit' instantiated from design 'datapath_nbit32' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'writeBackUnit' instantiated from design 'datapath_nbit32' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux21_generic' instantiated from design 'fetchUnit_nbit32' with
+	the parameters "NBIT=32". (HDL-193)
+
+Statistics for case statements in always block at line 18 in file
+	'./mux21_generic.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            18            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'REG_GEN' instantiated from design 'fetchUnit_nbit32' with
+	the parameters "NBIT=32". (HDL-193)
+
+Inferred memory devices in process
+	in routine REG_GEN_NBIT32 line 16 in file
+		'./reg_gen.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'P4_ADDER' instantiated from design 'fetchUnit_nbit32' with
+	the parameters "NBIT=32,NBIT_PER_BLOCK=4". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'sign_extension' instantiated from design 'decodeUnit_nbit32' with
+	the parameters "sign_init=26,sign_ext=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'register_file' instantiated from design 'decodeUnit_nbit32' with
+	the parameters "nbit_reg=32,n_reg=32,nbit_addr=5". (HDL-193)
+
+Inferred memory devices in process
+	in routine register_file_nbit_reg32_n_reg32_nbit_addr5 line 37 in file
+		'./registerfile.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    registers_reg    | Latch | 1024  |  Y  | N  | N  | N  | -  | -  | -  |
+|      out2_reg       | Latch |  32   |  Y  | N  | N  | N  | -  | -  | -  |
+|      out1_reg       | Latch |  32   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Information: Building the design 'sign_extension' instantiated from design 'decodeUnit_nbit32' with
+	the parameters "sign_init=16,sign_ext=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'alu'. (HDL-193)
+
+Statistics for case statements in always block at line 147 in file
+	'./alu.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           149            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine alu line 147 in file
+		'./alu.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|     cmp_sel_reg     | Latch |   3   |  Y  | N  | N  | N  | -  | -  | -  |
+|     p4_cin_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|     add_sel_reg     | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|     mux_sel_reg     | Latch |   4   |  Y  | N  | N  | N  | -  | -  | -  |
+|    log_shift_reg    | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Information: Building the design 'branch_block' instantiated from design 'memoryUnit_nbit32' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'CARRY_GENERATOR' instantiated from design 'P4_ADDER_NBIT32_NBIT_PER_BLOCK4' with
+	the parameters "NBIT=32,NBIT_PER_BLOCK=4". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'SUMGEN' instantiated from design 'P4_ADDER_NBIT32_NBIT_PER_BLOCK4' with
+	the parameters "NBIT=32,NBLOCKS=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'and_gate' instantiated from design 'alu' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'or_gate' instantiated from design 'alu' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'xor_gate' instantiated from design 'alu' with
+	the parameters "nbit=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'shifter_sx' instantiated from design 'alu' with
+	the parameters "nbit=32". (HDL-193)
+
+Inferred memory devices in process
+	in routine shifter_sx_nbit32 line 15 in file
+		'./shifter_sx.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    data_out_reg     | Latch |  32   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Information: Building the design 'shifter_dx' instantiated from design 'alu' with
+	the parameters "nbit=32". (HDL-193)
+
+Inferred memory devices in process
+	in routine shifter_dx_nbit32 line 16 in file
+		'./shifter_dx.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    data_out_reg     | Latch |  32   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Information: Building the design 'comparator'. (HDL-193)
+
+Statistics for case statements in always block at line 23 in file
+	'./comparator.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            25            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux11to1' instantiated from design 'alu' with
+	the parameters "nbit=32". (HDL-193)
+
+Statistics for case statements in always block at line 17 in file
+	'./mux11to1.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            17            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'PG_block'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'GENERAL_G'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'GENERAL_PG'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'CSblock' instantiated from design 'SUMGEN_NBIT32_NBLOCKS8' with
+	the parameters "NBIT=4". (HDL-193)
+Warning:  ./CSblock.vhd:18: The initial value for signal 'c0' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ./CSblock.vhd:19: The initial value for signal 'c1' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ./CSblock.vhd:43: Floating pin 'Ci of cell add0' connected to ground. (ELAB-294)
+Warning:  ./CSblock.vhd:46: Floating pin 'Ci of cell add1' connected to ground. (ELAB-294)
+Warning:  ./CSblock.vhd:52: Floating pin 'A[3] of cell muxCout' connected to ground. (ELAB-294)
+Warning:  ./CSblock.vhd:52: Floating pin 'A[2] of cell muxCout' connected to ground. (ELAB-294)
+Warning:  ./CSblock.vhd:52: Floating pin 'A[1] of cell muxCout' connected to ground. (ELAB-294)
+Warning:  ./CSblock.vhd:52: Floating pin 'B[3] of cell muxCout' connected to ground. (ELAB-294)
+Warning:  ./CSblock.vhd:52: Floating pin 'B[2] of cell muxCout' connected to ground. (ELAB-294)
+Warning:  ./CSblock.vhd:52: Floating pin 'B[1] of cell muxCout' connected to ground. (ELAB-294)
+Presto compilation completed successfully.
+Information: Building the design 'RCA' instantiated from design 'CSblock_NBIT4' with
+	the parameters "NBIT=4". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'MUX21_GENERIC' instantiated from design 'CSblock_NBIT4' with
+	the parameters "NBIT=4". (HDL-193)
+
+Statistics for case statements in always block at line 18 in file
+	'./mux21_generic.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            18            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'FA'. (HDL-193)
+Presto compilation completed successfully.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | F-2011.09-DWBB_201109.3 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 409 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'dlx_cu_MICROCODE_MEM_SIZE45_FUNC_SIZE11_OP_CODE_SIZE6_IR_SIZE32_CW_SIZE13'
+Information: The register 'cw3_reg[12]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw3_reg[11]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw3_reg[8]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw3_reg[7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw3_reg[6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw3_reg[5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw3_reg[4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw3_reg[3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw3_reg[0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw4_reg[8]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw4_reg[7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw4_reg[6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw4_reg[5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw4_reg[4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw4_reg[3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw4_reg[0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'cw5_reg[0]' is a constant and will be removed. (OPT-1206)
+  Processing 'flip_flop_0'
+  Processing 'MUX21_GENERIC_NBIT32_0'
+  Processing 'writeBackUnit_nbit32'
+  Processing 'REG_GEN_NBIT32_0'
+  Processing 'branch_block_nbit32'
+  Processing 'memoryUnit_nbit32'
+  Processing 'MUX21_GENERIC_NBIT4_0'
+  Processing 'FA_0'
+  Processing 'RCA_NBIT4_0'
+  Processing 'CSblock_NBIT4_0'
+  Processing 'SUMGEN_NBIT32_NBLOCKS8_0'
+  Processing 'GENERAL_G_0'
+  Processing 'GENERAL_PG_0'
+  Processing 'PG_block_0'
+  Processing 'CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4_0'
+  Processing 'P4_ADDER_NBIT32_NBIT_PER_BLOCK4_0'
+  Processing 'mux11to1_nbit32'
+  Processing 'comparator'
+  Processing 'shifter_dx_nbit32'
+  Processing 'shifter_sx_nbit32'
+  Processing 'xor_gate_nbit32'
+  Processing 'or_gate_nbit32'
+  Processing 'and_gate_nbit32'
+  Processing 'alu'
+Information: The register 'mux_sel_reg[3]' is a constant and will be removed. (OPT-1206)
+  Processing 'executionUnit_nbit32'
+  Processing 'sign_extension_sign_init16_sign_ext32'
+  Processing 'register_file_nbit_reg32_n_reg32_nbit_addr5'
+Information: The register 'registers_reg[0][31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][30]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][29]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][28]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][27]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][26]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][25]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][24]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][23]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][22]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][21]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][20]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][17]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][16]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][15]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][14]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][13]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][12]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][11]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][10]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][9]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][8]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][2]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'registers_reg[0][0]' is a constant and will be removed. (OPT-1206)
+  Processing 'sign_extension_sign_init26_sign_ext32'
+  Processing 'decodeUnit_nbit32'
+  Processing 'fetchUnit_nbit32'
+  Processing 'datapath_nbit32'
+  Processing 'DLX_nbit32'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Design 'DLX_nbit32' has no optimization constraints set. (OPT-108)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'comparator_DW01_cmp6_0'
+  Processing 'shifter_dx_nbit32_DW01_cmp2_0'
+  Processing 'shifter_sx_nbit32_DW01_cmp2_0'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Structuring 'FA_255'
+  Mapping 'FA_255'
+  Structuring 'FA_254'
+  Mapping 'FA_254'
+  Structuring 'FA_253'
+  Mapping 'FA_253'
+  Structuring 'FA_252'
+  Mapping 'FA_252'
+  Structuring 'FA_251'
+  Mapping 'FA_251'
+  Structuring 'FA_250'
+  Mapping 'FA_250'
+  Structuring 'FA_249'
+  Mapping 'FA_249'
+  Structuring 'FA_248'
+  Mapping 'FA_248'
+  Structuring 'FA_247'
+  Mapping 'FA_247'
+  Structuring 'FA_246'
+  Mapping 'FA_246'
+  Structuring 'FA_245'
+  Mapping 'FA_245'
+  Structuring 'FA_244'
+  Mapping 'FA_244'
+  Structuring 'FA_243'
+  Mapping 'FA_243'
+  Structuring 'FA_242'
+  Mapping 'FA_242'
+  Structuring 'FA_241'
+  Mapping 'FA_241'
+  Structuring 'FA_240'
+  Mapping 'FA_240'
+  Structuring 'FA_239'
+  Mapping 'FA_239'
+  Structuring 'FA_238'
+  Mapping 'FA_238'
+  Structuring 'FA_237'
+  Mapping 'FA_237'
+  Structuring 'FA_236'
+  Mapping 'FA_236'
+  Structuring 'FA_235'
+  Mapping 'FA_235'
+  Structuring 'FA_234'
+  Mapping 'FA_234'
+  Structuring 'FA_233'
+  Mapping 'FA_233'
+  Structuring 'FA_232'
+  Mapping 'FA_232'
+  Structuring 'FA_231'
+  Mapping 'FA_231'
+  Structuring 'FA_230'
+  Mapping 'FA_230'
+  Structuring 'FA_229'
+  Mapping 'FA_229'
+  Structuring 'FA_228'
+  Mapping 'FA_228'
+  Structuring 'FA_227'
+  Mapping 'FA_227'
+  Structuring 'FA_226'
+  Mapping 'FA_226'
+  Structuring 'FA_225'
+  Mapping 'FA_225'
+  Structuring 'FA_224'
+  Mapping 'FA_224'
+  Structuring 'FA_223'
+  Mapping 'FA_223'
+  Structuring 'FA_222'
+  Mapping 'FA_222'
+  Structuring 'FA_221'
+  Mapping 'FA_221'
+  Structuring 'FA_220'
+  Mapping 'FA_220'
+  Structuring 'FA_219'
+  Mapping 'FA_219'
+  Structuring 'FA_218'
+  Mapping 'FA_218'
+  Structuring 'FA_217'
+  Mapping 'FA_217'
+  Structuring 'FA_216'
+  Mapping 'FA_216'
+  Structuring 'FA_215'
+  Mapping 'FA_215'
+  Structuring 'FA_214'
+  Mapping 'FA_214'
+  Structuring 'FA_213'
+  Mapping 'FA_213'
+  Structuring 'FA_212'
+  Mapping 'FA_212'
+  Structuring 'FA_211'
+  Mapping 'FA_211'
+  Structuring 'FA_210'
+  Mapping 'FA_210'
+  Structuring 'FA_209'
+  Mapping 'FA_209'
+  Structuring 'FA_208'
+  Mapping 'FA_208'
+  Structuring 'FA_207'
+  Mapping 'FA_207'
+  Structuring 'FA_206'
+  Mapping 'FA_206'
+  Structuring 'FA_205'
+  Mapping 'FA_205'
+  Structuring 'FA_204'
+  Mapping 'FA_204'
+  Structuring 'FA_203'
+  Mapping 'FA_203'
+  Structuring 'FA_202'
+  Mapping 'FA_202'
+  Structuring 'FA_201'
+  Mapping 'FA_201'
+  Structuring 'FA_200'
+  Mapping 'FA_200'
+  Structuring 'FA_199'
+  Mapping 'FA_199'
+  Structuring 'FA_198'
+  Mapping 'FA_198'
+  Structuring 'FA_197'
+  Mapping 'FA_197'
+  Structuring 'FA_196'
+  Mapping 'FA_196'
+  Structuring 'FA_195'
+  Mapping 'FA_195'
+  Structuring 'FA_194'
+  Mapping 'FA_194'
+  Structuring 'FA_193'
+  Mapping 'FA_193'
+  Structuring 'FA_192'
+  Mapping 'FA_192'
+  Structuring 'FA_191'
+  Mapping 'FA_191'
+  Structuring 'FA_190'
+  Mapping 'FA_190'
+  Structuring 'FA_189'
+  Mapping 'FA_189'
+  Structuring 'FA_188'
+  Mapping 'FA_188'
+  Structuring 'FA_187'
+  Mapping 'FA_187'
+  Structuring 'FA_186'
+  Mapping 'FA_186'
+  Structuring 'FA_185'
+  Mapping 'FA_185'
+  Structuring 'FA_184'
+  Mapping 'FA_184'
+  Structuring 'FA_183'
+  Mapping 'FA_183'
+  Structuring 'FA_182'
+  Mapping 'FA_182'
+  Structuring 'FA_181'
+  Mapping 'FA_181'
+  Structuring 'FA_180'
+  Mapping 'FA_180'
+  Structuring 'FA_179'
+  Mapping 'FA_179'
+  Structuring 'FA_178'
+  Mapping 'FA_178'
+  Structuring 'FA_177'
+  Mapping 'FA_177'
+  Structuring 'FA_176'
+  Mapping 'FA_176'
+  Structuring 'FA_175'
+  Mapping 'FA_175'
+  Structuring 'FA_174'
+  Mapping 'FA_174'
+  Structuring 'FA_173'
+  Mapping 'FA_173'
+  Structuring 'FA_172'
+  Mapping 'FA_172'
+  Structuring 'FA_171'
+  Mapping 'FA_171'
+  Structuring 'FA_170'
+  Mapping 'FA_170'
+  Structuring 'FA_169'
+  Mapping 'FA_169'
+  Structuring 'FA_168'
+  Mapping 'FA_168'
+  Structuring 'FA_167'
+  Mapping 'FA_167'
+  Structuring 'FA_166'
+  Mapping 'FA_166'
+  Structuring 'FA_165'
+  Mapping 'FA_165'
+  Structuring 'FA_164'
+  Mapping 'FA_164'
+  Structuring 'FA_163'
+  Mapping 'FA_163'
+  Structuring 'FA_162'
+  Mapping 'FA_162'
+  Structuring 'FA_161'
+  Mapping 'FA_161'
+  Structuring 'FA_160'
+  Mapping 'FA_160'
+  Structuring 'FA_159'
+  Mapping 'FA_159'
+  Structuring 'FA_158'
+  Mapping 'FA_158'
+  Structuring 'FA_157'
+  Mapping 'FA_157'
+  Structuring 'FA_156'
+  Mapping 'FA_156'
+  Structuring 'FA_155'
+  Mapping 'FA_155'
+  Structuring 'FA_154'
+  Mapping 'FA_154'
+  Structuring 'FA_153'
+  Mapping 'FA_153'
+  Structuring 'FA_152'
+  Mapping 'FA_152'
+  Structuring 'FA_151'
+  Mapping 'FA_151'
+  Structuring 'FA_150'
+  Mapping 'FA_150'
+  Structuring 'FA_149'
+  Mapping 'FA_149'
+  Structuring 'FA_148'
+  Mapping 'FA_148'
+  Structuring 'FA_147'
+  Mapping 'FA_147'
+  Structuring 'FA_146'
+  Mapping 'FA_146'
+  Structuring 'FA_145'
+  Mapping 'FA_145'
+  Structuring 'FA_144'
+  Mapping 'FA_144'
+  Structuring 'FA_143'
+  Mapping 'FA_143'
+  Structuring 'FA_142'
+  Mapping 'FA_142'
+  Structuring 'FA_141'
+  Mapping 'FA_141'
+  Structuring 'FA_140'
+  Mapping 'FA_140'
+  Structuring 'FA_139'
+  Mapping 'FA_139'
+  Structuring 'FA_138'
+  Mapping 'FA_138'
+  Structuring 'FA_137'
+  Mapping 'FA_137'
+  Structuring 'FA_136'
+  Mapping 'FA_136'
+  Structuring 'FA_135'
+  Mapping 'FA_135'
+  Structuring 'FA_134'
+  Mapping 'FA_134'
+  Structuring 'FA_133'
+  Mapping 'FA_133'
+  Structuring 'FA_132'
+  Mapping 'FA_132'
+  Structuring 'FA_131'
+  Mapping 'FA_131'
+  Structuring 'FA_130'
+  Mapping 'FA_130'
+  Structuring 'FA_129'
+  Mapping 'FA_129'
+  Structuring 'FA_128'
+  Mapping 'FA_128'
+  Structuring 'FA_127'
+  Mapping 'FA_127'
+  Structuring 'FA_126'
+  Mapping 'FA_126'
+  Structuring 'FA_125'
+  Mapping 'FA_125'
+  Structuring 'FA_124'
+  Mapping 'FA_124'
+  Structuring 'FA_123'
+  Mapping 'FA_123'
+  Structuring 'FA_122'
+  Mapping 'FA_122'
+  Structuring 'FA_121'
+  Mapping 'FA_121'
+  Structuring 'FA_120'
+  Mapping 'FA_120'
+  Structuring 'FA_119'
+  Mapping 'FA_119'
+  Structuring 'FA_118'
+  Mapping 'FA_118'
+  Structuring 'FA_117'
+  Mapping 'FA_117'
+  Structuring 'FA_116'
+  Mapping 'FA_116'
+  Structuring 'FA_115'
+  Mapping 'FA_115'
+  Structuring 'FA_114'
+  Mapping 'FA_114'
+  Structuring 'FA_113'
+  Mapping 'FA_113'
+  Structuring 'FA_112'
+  Mapping 'FA_112'
+  Structuring 'FA_111'
+  Mapping 'FA_111'
+  Structuring 'FA_110'
+  Mapping 'FA_110'
+  Structuring 'FA_109'
+  Mapping 'FA_109'
+  Structuring 'FA_108'
+  Mapping 'FA_108'
+  Structuring 'FA_107'
+  Mapping 'FA_107'
+  Structuring 'FA_106'
+  Mapping 'FA_106'
+  Structuring 'FA_105'
+  Mapping 'FA_105'
+  Structuring 'FA_104'
+  Mapping 'FA_104'
+  Structuring 'FA_103'
+  Mapping 'FA_103'
+  Structuring 'FA_102'
+  Mapping 'FA_102'
+  Structuring 'FA_101'
+  Mapping 'FA_101'
+  Structuring 'FA_100'
+  Mapping 'FA_100'
+  Structuring 'FA_99'
+  Mapping 'FA_99'
+  Structuring 'FA_98'
+  Mapping 'FA_98'
+  Structuring 'FA_97'
+  Mapping 'FA_97'
+  Structuring 'FA_96'
+  Mapping 'FA_96'
+  Structuring 'FA_95'
+  Mapping 'FA_95'
+  Structuring 'FA_94'
+  Mapping 'FA_94'
+  Structuring 'FA_93'
+  Mapping 'FA_93'
+  Structuring 'FA_92'
+  Mapping 'FA_92'
+  Structuring 'FA_91'
+  Mapping 'FA_91'
+  Structuring 'FA_90'
+  Mapping 'FA_90'
+  Structuring 'FA_89'
+  Mapping 'FA_89'
+  Structuring 'FA_88'
+  Mapping 'FA_88'
+  Structuring 'FA_87'
+  Mapping 'FA_87'
+  Structuring 'FA_86'
+  Mapping 'FA_86'
+  Structuring 'FA_85'
+  Mapping 'FA_85'
+  Structuring 'FA_84'
+  Mapping 'FA_84'
+  Structuring 'FA_83'
+  Mapping 'FA_83'
+  Structuring 'FA_82'
+  Mapping 'FA_82'
+  Structuring 'FA_81'
+  Mapping 'FA_81'
+  Structuring 'FA_80'
+  Mapping 'FA_80'
+  Structuring 'FA_79'
+  Mapping 'FA_79'
+  Structuring 'FA_78'
+  Mapping 'FA_78'
+  Structuring 'FA_77'
+  Mapping 'FA_77'
+  Structuring 'FA_76'
+  Mapping 'FA_76'
+  Structuring 'FA_75'
+  Mapping 'FA_75'
+  Structuring 'FA_74'
+  Mapping 'FA_74'
+  Structuring 'FA_73'
+  Mapping 'FA_73'
+  Structuring 'FA_72'
+  Mapping 'FA_72'
+  Structuring 'FA_71'
+  Mapping 'FA_71'
+  Structuring 'FA_70'
+  Mapping 'FA_70'
+  Structuring 'FA_69'
+  Mapping 'FA_69'
+  Structuring 'FA_68'
+  Mapping 'FA_68'
+  Structuring 'FA_67'
+  Mapping 'FA_67'
+  Structuring 'FA_66'
+  Mapping 'FA_66'
+  Structuring 'FA_65'
+  Mapping 'FA_65'
+  Structuring 'FA_64'
+  Mapping 'FA_64'
+  Structuring 'FA_63'
+  Mapping 'FA_63'
+  Structuring 'FA_62'
+  Mapping 'FA_62'
+  Structuring 'FA_61'
+  Mapping 'FA_61'
+  Structuring 'FA_60'
+  Mapping 'FA_60'
+  Structuring 'FA_59'
+  Mapping 'FA_59'
+  Structuring 'FA_58'
+  Mapping 'FA_58'
+  Structuring 'FA_57'
+  Mapping 'FA_57'
+  Structuring 'FA_56'
+  Mapping 'FA_56'
+  Structuring 'FA_55'
+  Mapping 'FA_55'
+  Structuring 'FA_54'
+  Mapping 'FA_54'
+  Structuring 'FA_53'
+  Mapping 'FA_53'
+  Structuring 'FA_52'
+  Mapping 'FA_52'
+  Structuring 'FA_51'
+  Mapping 'FA_51'
+  Structuring 'FA_50'
+  Mapping 'FA_50'
+  Structuring 'FA_49'
+  Mapping 'FA_49'
+  Structuring 'FA_48'
+  Mapping 'FA_48'
+  Structuring 'FA_47'
+  Mapping 'FA_47'
+  Structuring 'FA_46'
+  Mapping 'FA_46'
+  Structuring 'FA_45'
+  Mapping 'FA_45'
+  Structuring 'FA_44'
+  Mapping 'FA_44'
+  Structuring 'FA_43'
+  Mapping 'FA_43'
+  Structuring 'FA_42'
+  Mapping 'FA_42'
+  Structuring 'FA_41'
+  Mapping 'FA_41'
+  Structuring 'FA_40'
+  Mapping 'FA_40'
+  Structuring 'FA_39'
+  Mapping 'FA_39'
+  Structuring 'FA_38'
+  Mapping 'FA_38'
+  Structuring 'FA_37'
+  Mapping 'FA_37'
+  Structuring 'FA_36'
+  Mapping 'FA_36'
+  Structuring 'FA_35'
+  Mapping 'FA_35'
+  Structuring 'FA_34'
+  Mapping 'FA_34'
+  Structuring 'FA_33'
+  Mapping 'FA_33'
+  Structuring 'FA_32'
+  Mapping 'FA_32'
+  Structuring 'FA_31'
+  Mapping 'FA_31'
+  Structuring 'FA_30'
+  Mapping 'FA_30'
+  Structuring 'FA_29'
+  Mapping 'FA_29'
+  Structuring 'FA_28'
+  Mapping 'FA_28'
+  Structuring 'FA_27'
+  Mapping 'FA_27'
+  Structuring 'FA_26'
+  Mapping 'FA_26'
+  Structuring 'FA_25'
+  Mapping 'FA_25'
+  Structuring 'FA_24'
+  Mapping 'FA_24'
+  Structuring 'FA_23'
+  Mapping 'FA_23'
+  Structuring 'FA_22'
+  Mapping 'FA_22'
+  Structuring 'FA_21'
+  Mapping 'FA_21'
+  Structuring 'FA_20'
+  Mapping 'FA_20'
+  Structuring 'FA_19'
+  Mapping 'FA_19'
+  Structuring 'FA_18'
+  Mapping 'FA_18'
+  Structuring 'FA_17'
+  Mapping 'FA_17'
+  Structuring 'FA_16'
+  Mapping 'FA_16'
+  Structuring 'FA_15'
+  Mapping 'FA_15'
+  Structuring 'FA_14'
+  Mapping 'FA_14'
+  Structuring 'FA_13'
+  Mapping 'FA_13'
+  Structuring 'FA_12'
+  Mapping 'FA_12'
+  Structuring 'FA_11'
+  Mapping 'FA_11'
+  Structuring 'FA_10'
+  Mapping 'FA_10'
+  Structuring 'FA_9'
+  Mapping 'FA_9'
+  Structuring 'FA_8'
+  Mapping 'FA_8'
+  Structuring 'FA_7'
+  Mapping 'FA_7'
+  Structuring 'FA_6'
+  Mapping 'FA_6'
+  Structuring 'FA_5'
+  Mapping 'FA_5'
+  Structuring 'FA_4'
+  Mapping 'FA_4'
+  Structuring 'FA_3'
+  Mapping 'FA_3'
+  Structuring 'FA_2'
+  Mapping 'FA_2'
+  Structuring 'FA_1'
+  Mapping 'FA_1'
+  Structuring 'MUX21_GENERIC_NBIT4_63'
+  Mapping 'MUX21_GENERIC_NBIT4_63'
+  Structuring 'MUX21_GENERIC_NBIT4_62'
+  Mapping 'MUX21_GENERIC_NBIT4_62'
+  Structuring 'MUX21_GENERIC_NBIT4_61'
+  Mapping 'MUX21_GENERIC_NBIT4_61'
+  Structuring 'MUX21_GENERIC_NBIT4_60'
+  Mapping 'MUX21_GENERIC_NBIT4_60'
+  Structuring 'MUX21_GENERIC_NBIT4_59'
+  Mapping 'MUX21_GENERIC_NBIT4_59'
+  Structuring 'MUX21_GENERIC_NBIT4_58'
+  Mapping 'MUX21_GENERIC_NBIT4_58'
+  Structuring 'MUX21_GENERIC_NBIT4_57'
+  Mapping 'MUX21_GENERIC_NBIT4_57'
+  Structuring 'MUX21_GENERIC_NBIT4_56'
+  Mapping 'MUX21_GENERIC_NBIT4_56'
+  Structuring 'MUX21_GENERIC_NBIT4_55'
+  Mapping 'MUX21_GENERIC_NBIT4_55'
+  Structuring 'MUX21_GENERIC_NBIT4_54'
+  Mapping 'MUX21_GENERIC_NBIT4_54'
+  Structuring 'MUX21_GENERIC_NBIT4_53'
+  Mapping 'MUX21_GENERIC_NBIT4_53'
+  Structuring 'MUX21_GENERIC_NBIT4_52'
+  Mapping 'MUX21_GENERIC_NBIT4_52'
+  Structuring 'MUX21_GENERIC_NBIT4_51'
+  Mapping 'MUX21_GENERIC_NBIT4_51'
+  Structuring 'MUX21_GENERIC_NBIT4_50'
+  Mapping 'MUX21_GENERIC_NBIT4_50'
+  Structuring 'MUX21_GENERIC_NBIT4_49'
+  Mapping 'MUX21_GENERIC_NBIT4_49'
+  Structuring 'MUX21_GENERIC_NBIT4_48'
+  Mapping 'MUX21_GENERIC_NBIT4_48'
+  Structuring 'MUX21_GENERIC_NBIT4_47'
+  Mapping 'MUX21_GENERIC_NBIT4_47'
+  Structuring 'MUX21_GENERIC_NBIT4_46'
+  Mapping 'MUX21_GENERIC_NBIT4_46'
+  Structuring 'MUX21_GENERIC_NBIT4_45'
+  Mapping 'MUX21_GENERIC_NBIT4_45'
+  Structuring 'MUX21_GENERIC_NBIT4_44'
+  Mapping 'MUX21_GENERIC_NBIT4_44'
+  Structuring 'MUX21_GENERIC_NBIT4_43'
+  Mapping 'MUX21_GENERIC_NBIT4_43'
+  Structuring 'MUX21_GENERIC_NBIT4_42'
+  Mapping 'MUX21_GENERIC_NBIT4_42'
+  Structuring 'MUX21_GENERIC_NBIT4_41'
+  Mapping 'MUX21_GENERIC_NBIT4_41'
+  Structuring 'MUX21_GENERIC_NBIT4_40'
+  Mapping 'MUX21_GENERIC_NBIT4_40'
+  Structuring 'MUX21_GENERIC_NBIT4_39'
+  Mapping 'MUX21_GENERIC_NBIT4_39'
+  Structuring 'MUX21_GENERIC_NBIT4_38'
+  Mapping 'MUX21_GENERIC_NBIT4_38'
+  Structuring 'MUX21_GENERIC_NBIT4_37'
+  Mapping 'MUX21_GENERIC_NBIT4_37'
+  Structuring 'MUX21_GENERIC_NBIT4_36'
+  Mapping 'MUX21_GENERIC_NBIT4_36'
+  Structuring 'MUX21_GENERIC_NBIT4_35'
+  Mapping 'MUX21_GENERIC_NBIT4_35'
+  Structuring 'MUX21_GENERIC_NBIT4_34'
+  Mapping 'MUX21_GENERIC_NBIT4_34'
+  Structuring 'MUX21_GENERIC_NBIT4_33'
+  Mapping 'MUX21_GENERIC_NBIT4_33'
+  Structuring 'MUX21_GENERIC_NBIT4_32'
+  Mapping 'MUX21_GENERIC_NBIT4_32'
+  Structuring 'MUX21_GENERIC_NBIT4_31'
+  Mapping 'MUX21_GENERIC_NBIT4_31'
+  Structuring 'MUX21_GENERIC_NBIT4_30'
+  Mapping 'MUX21_GENERIC_NBIT4_30'
+  Structuring 'MUX21_GENERIC_NBIT4_29'
+  Mapping 'MUX21_GENERIC_NBIT4_29'
+  Structuring 'MUX21_GENERIC_NBIT4_28'
+  Mapping 'MUX21_GENERIC_NBIT4_28'
+  Structuring 'MUX21_GENERIC_NBIT4_27'
+  Mapping 'MUX21_GENERIC_NBIT4_27'
+  Structuring 'MUX21_GENERIC_NBIT4_26'
+  Mapping 'MUX21_GENERIC_NBIT4_26'
+  Structuring 'MUX21_GENERIC_NBIT4_25'
+  Mapping 'MUX21_GENERIC_NBIT4_25'
+  Structuring 'MUX21_GENERIC_NBIT4_24'
+  Mapping 'MUX21_GENERIC_NBIT4_24'
+  Structuring 'MUX21_GENERIC_NBIT4_23'
+  Mapping 'MUX21_GENERIC_NBIT4_23'
+  Structuring 'MUX21_GENERIC_NBIT4_22'
+  Mapping 'MUX21_GENERIC_NBIT4_22'
+  Structuring 'MUX21_GENERIC_NBIT4_21'
+  Mapping 'MUX21_GENERIC_NBIT4_21'
+  Structuring 'MUX21_GENERIC_NBIT4_20'
+  Mapping 'MUX21_GENERIC_NBIT4_20'
+  Structuring 'MUX21_GENERIC_NBIT4_19'
+  Mapping 'MUX21_GENERIC_NBIT4_19'
+  Structuring 'MUX21_GENERIC_NBIT4_18'
+  Mapping 'MUX21_GENERIC_NBIT4_18'
+  Structuring 'MUX21_GENERIC_NBIT4_17'
+  Mapping 'MUX21_GENERIC_NBIT4_17'
+  Structuring 'MUX21_GENERIC_NBIT4_16'
+  Mapping 'MUX21_GENERIC_NBIT4_16'
+  Structuring 'MUX21_GENERIC_NBIT4_15'
+  Mapping 'MUX21_GENERIC_NBIT4_15'
+  Structuring 'MUX21_GENERIC_NBIT4_14'
+  Mapping 'MUX21_GENERIC_NBIT4_14'
+  Structuring 'MUX21_GENERIC_NBIT4_13'
+  Mapping 'MUX21_GENERIC_NBIT4_13'
+  Structuring 'MUX21_GENERIC_NBIT4_12'
+  Mapping 'MUX21_GENERIC_NBIT4_12'
+  Structuring 'MUX21_GENERIC_NBIT4_11'
+  Mapping 'MUX21_GENERIC_NBIT4_11'
+  Structuring 'MUX21_GENERIC_NBIT4_10'
+  Mapping 'MUX21_GENERIC_NBIT4_10'
+  Structuring 'MUX21_GENERIC_NBIT4_9'
+  Mapping 'MUX21_GENERIC_NBIT4_9'
+  Structuring 'MUX21_GENERIC_NBIT4_8'
+  Mapping 'MUX21_GENERIC_NBIT4_8'
+  Structuring 'MUX21_GENERIC_NBIT4_7'
+  Mapping 'MUX21_GENERIC_NBIT4_7'
+  Structuring 'MUX21_GENERIC_NBIT4_6'
+  Mapping 'MUX21_GENERIC_NBIT4_6'
+  Structuring 'MUX21_GENERIC_NBIT4_5'
+  Mapping 'MUX21_GENERIC_NBIT4_5'
+  Structuring 'MUX21_GENERIC_NBIT4_4'
+  Mapping 'MUX21_GENERIC_NBIT4_4'
+  Structuring 'MUX21_GENERIC_NBIT4_3'
+  Mapping 'MUX21_GENERIC_NBIT4_3'
+  Structuring 'MUX21_GENERIC_NBIT4_2'
+  Mapping 'MUX21_GENERIC_NBIT4_2'
+  Structuring 'MUX21_GENERIC_NBIT4_1'
+  Mapping 'MUX21_GENERIC_NBIT4_1'
+  Structuring 'GENERAL_PG_107'
+  Mapping 'GENERAL_PG_107'
+  Structuring 'GENERAL_PG_106'
+  Mapping 'GENERAL_PG_106'
+  Structuring 'GENERAL_PG_105'
+  Mapping 'GENERAL_PG_105'
+  Structuring 'GENERAL_PG_104'
+  Mapping 'GENERAL_PG_104'
+  Structuring 'GENERAL_PG_103'
+  Mapping 'GENERAL_PG_103'
+  Structuring 'GENERAL_PG_102'
+  Mapping 'GENERAL_PG_102'
+  Structuring 'GENERAL_PG_101'
+  Mapping 'GENERAL_PG_101'
+  Structuring 'GENERAL_PG_100'
+  Mapping 'GENERAL_PG_100'
+  Structuring 'GENERAL_PG_99'
+  Mapping 'GENERAL_PG_99'
+  Structuring 'GENERAL_PG_98'
+  Mapping 'GENERAL_PG_98'
+  Structuring 'GENERAL_PG_97'
+  Mapping 'GENERAL_PG_97'
+  Structuring 'GENERAL_PG_96'
+  Mapping 'GENERAL_PG_96'
+  Structuring 'GENERAL_PG_95'
+  Mapping 'GENERAL_PG_95'
+  Structuring 'GENERAL_PG_94'
+  Mapping 'GENERAL_PG_94'
+  Structuring 'GENERAL_PG_93'
+  Mapping 'GENERAL_PG_93'
+  Structuring 'GENERAL_PG_92'
+  Mapping 'GENERAL_PG_92'
+  Structuring 'GENERAL_PG_91'
+  Mapping 'GENERAL_PG_91'
+  Structuring 'GENERAL_PG_90'
+  Mapping 'GENERAL_PG_90'
+  Structuring 'GENERAL_PG_89'
+  Mapping 'GENERAL_PG_89'
+  Structuring 'GENERAL_PG_88'
+  Mapping 'GENERAL_PG_88'
+  Structuring 'GENERAL_PG_87'
+  Mapping 'GENERAL_PG_87'
+  Structuring 'GENERAL_PG_86'
+  Mapping 'GENERAL_PG_86'
+  Structuring 'GENERAL_PG_85'
+  Mapping 'GENERAL_PG_85'
+  Structuring 'GENERAL_PG_84'
+  Mapping 'GENERAL_PG_84'
+  Structuring 'GENERAL_PG_83'
+  Mapping 'GENERAL_PG_83'
+  Structuring 'GENERAL_PG_82'
+  Mapping 'GENERAL_PG_82'
+  Structuring 'GENERAL_PG_81'
+  Mapping 'GENERAL_PG_81'
+  Structuring 'GENERAL_PG_80'
+  Mapping 'GENERAL_PG_80'
+  Structuring 'GENERAL_PG_79'
+  Mapping 'GENERAL_PG_79'
+  Structuring 'GENERAL_PG_78'
+  Mapping 'GENERAL_PG_78'
+  Structuring 'GENERAL_PG_77'
+  Mapping 'GENERAL_PG_77'
+  Structuring 'GENERAL_PG_76'
+  Mapping 'GENERAL_PG_76'
+  Structuring 'GENERAL_PG_75'
+  Mapping 'GENERAL_PG_75'
+  Structuring 'GENERAL_PG_74'
+  Mapping 'GENERAL_PG_74'
+  Structuring 'GENERAL_PG_73'
+  Mapping 'GENERAL_PG_73'
+  Structuring 'GENERAL_PG_72'
+  Mapping 'GENERAL_PG_72'
+  Structuring 'GENERAL_PG_71'
+  Mapping 'GENERAL_PG_71'
+  Structuring 'GENERAL_PG_70'
+  Mapping 'GENERAL_PG_70'
+  Structuring 'GENERAL_PG_69'
+  Mapping 'GENERAL_PG_69'
+  Structuring 'GENERAL_PG_68'
+  Mapping 'GENERAL_PG_68'
+  Structuring 'GENERAL_PG_67'
+  Mapping 'GENERAL_PG_67'
+  Structuring 'GENERAL_PG_66'
+  Mapping 'GENERAL_PG_66'
+  Structuring 'GENERAL_PG_65'
+  Mapping 'GENERAL_PG_65'
+  Structuring 'GENERAL_PG_64'
+  Mapping 'GENERAL_PG_64'
+  Structuring 'GENERAL_PG_63'
+  Mapping 'GENERAL_PG_63'
+  Structuring 'GENERAL_PG_62'
+  Mapping 'GENERAL_PG_62'
+  Structuring 'GENERAL_PG_61'
+  Mapping 'GENERAL_PG_61'
+  Structuring 'GENERAL_PG_60'
+  Mapping 'GENERAL_PG_60'
+  Structuring 'GENERAL_PG_59'
+  Mapping 'GENERAL_PG_59'
+  Structuring 'GENERAL_PG_58'
+  Mapping 'GENERAL_PG_58'
+  Structuring 'GENERAL_PG_57'
+  Mapping 'GENERAL_PG_57'
+  Structuring 'GENERAL_PG_56'
+  Mapping 'GENERAL_PG_56'
+  Structuring 'GENERAL_PG_55'
+  Mapping 'GENERAL_PG_55'
+  Structuring 'GENERAL_PG_54'
+  Mapping 'GENERAL_PG_54'
+  Structuring 'GENERAL_PG_53'
+  Mapping 'GENERAL_PG_53'
+  Structuring 'GENERAL_PG_52'
+  Mapping 'GENERAL_PG_52'
+  Structuring 'GENERAL_PG_51'
+  Mapping 'GENERAL_PG_51'
+  Structuring 'GENERAL_PG_50'
+  Mapping 'GENERAL_PG_50'
+  Structuring 'GENERAL_PG_49'
+  Mapping 'GENERAL_PG_49'
+  Structuring 'GENERAL_PG_48'
+  Mapping 'GENERAL_PG_48'
+  Structuring 'GENERAL_PG_47'
+  Mapping 'GENERAL_PG_47'
+  Structuring 'GENERAL_PG_46'
+  Mapping 'GENERAL_PG_46'
+  Structuring 'GENERAL_PG_45'
+  Mapping 'GENERAL_PG_45'
+  Structuring 'GENERAL_PG_44'
+  Mapping 'GENERAL_PG_44'
+  Structuring 'GENERAL_PG_43'
+  Mapping 'GENERAL_PG_43'
+  Structuring 'GENERAL_PG_42'
+  Mapping 'GENERAL_PG_42'
+  Structuring 'GENERAL_PG_41'
+  Mapping 'GENERAL_PG_41'
+  Structuring 'GENERAL_PG_40'
+  Mapping 'GENERAL_PG_40'
+  Structuring 'GENERAL_PG_39'
+  Mapping 'GENERAL_PG_39'
+  Structuring 'GENERAL_PG_38'
+  Mapping 'GENERAL_PG_38'
+  Structuring 'GENERAL_PG_37'
+  Mapping 'GENERAL_PG_37'
+  Structuring 'GENERAL_PG_36'
+  Mapping 'GENERAL_PG_36'
+  Structuring 'GENERAL_PG_35'
+  Mapping 'GENERAL_PG_35'
+  Structuring 'GENERAL_PG_34'
+  Mapping 'GENERAL_PG_34'
+  Structuring 'GENERAL_PG_33'
+  Mapping 'GENERAL_PG_33'
+  Structuring 'GENERAL_PG_32'
+  Mapping 'GENERAL_PG_32'
+  Structuring 'GENERAL_PG_31'
+  Mapping 'GENERAL_PG_31'
+  Structuring 'GENERAL_PG_30'
+  Mapping 'GENERAL_PG_30'
+  Structuring 'GENERAL_PG_29'
+  Mapping 'GENERAL_PG_29'
+  Structuring 'GENERAL_PG_28'
+  Mapping 'GENERAL_PG_28'
+  Structuring 'GENERAL_PG_27'
+  Mapping 'GENERAL_PG_27'
+  Structuring 'GENERAL_PG_26'
+  Mapping 'GENERAL_PG_26'
+  Structuring 'GENERAL_PG_25'
+  Mapping 'GENERAL_PG_25'
+  Structuring 'GENERAL_PG_24'
+  Mapping 'GENERAL_PG_24'
+  Structuring 'GENERAL_PG_23'
+  Mapping 'GENERAL_PG_23'
+  Structuring 'GENERAL_PG_22'
+  Mapping 'GENERAL_PG_22'
+  Structuring 'GENERAL_PG_21'
+  Mapping 'GENERAL_PG_21'
+  Structuring 'GENERAL_PG_20'
+  Mapping 'GENERAL_PG_20'
+  Structuring 'GENERAL_PG_19'
+  Mapping 'GENERAL_PG_19'
+  Structuring 'GENERAL_PG_18'
+  Mapping 'GENERAL_PG_18'
+  Structuring 'GENERAL_PG_17'
+  Mapping 'GENERAL_PG_17'
+  Structuring 'GENERAL_PG_16'
+  Mapping 'GENERAL_PG_16'
+  Structuring 'GENERAL_PG_15'
+  Mapping 'GENERAL_PG_15'
+  Structuring 'GENERAL_PG_14'
+  Mapping 'GENERAL_PG_14'
+  Structuring 'GENERAL_PG_13'
+  Mapping 'GENERAL_PG_13'
+  Structuring 'GENERAL_PG_12'
+  Mapping 'GENERAL_PG_12'
+  Structuring 'GENERAL_PG_11'
+  Mapping 'GENERAL_PG_11'
+  Structuring 'GENERAL_PG_10'
+  Mapping 'GENERAL_PG_10'
+  Structuring 'GENERAL_PG_9'
+  Mapping 'GENERAL_PG_9'
+  Structuring 'GENERAL_PG_8'
+  Mapping 'GENERAL_PG_8'
+  Structuring 'GENERAL_PG_7'
+  Mapping 'GENERAL_PG_7'
+  Structuring 'GENERAL_PG_6'
+  Mapping 'GENERAL_PG_6'
+  Structuring 'GENERAL_PG_5'
+  Mapping 'GENERAL_PG_5'
+  Structuring 'GENERAL_PG_4'
+  Mapping 'GENERAL_PG_4'
+  Structuring 'GENERAL_PG_3'
+  Mapping 'GENERAL_PG_3'
+  Structuring 'GENERAL_PG_2'
+  Mapping 'GENERAL_PG_2'
+  Structuring 'GENERAL_PG_1'
+  Mapping 'GENERAL_PG_1'
+  Structuring 'GENERAL_G_39'
+  Mapping 'GENERAL_G_39'
+  Structuring 'GENERAL_G_38'
+  Mapping 'GENERAL_G_38'
+  Structuring 'GENERAL_G_37'
+  Mapping 'GENERAL_G_37'
+  Structuring 'GENERAL_G_36'
+  Mapping 'GENERAL_G_36'
+  Structuring 'GENERAL_G_35'
+  Mapping 'GENERAL_G_35'
+  Structuring 'GENERAL_G_34'
+  Mapping 'GENERAL_G_34'
+  Structuring 'GENERAL_G_33'
+  Mapping 'GENERAL_G_33'
+  Structuring 'GENERAL_G_32'
+  Mapping 'GENERAL_G_32'
+  Structuring 'GENERAL_G_31'
+  Mapping 'GENERAL_G_31'
+  Structuring 'GENERAL_G_30'
+  Mapping 'GENERAL_G_30'
+  Structuring 'GENERAL_G_29'
+  Mapping 'GENERAL_G_29'
+  Structuring 'GENERAL_G_28'
+  Mapping 'GENERAL_G_28'
+  Structuring 'GENERAL_G_27'
+  Mapping 'GENERAL_G_27'
+  Structuring 'GENERAL_G_26'
+  Mapping 'GENERAL_G_26'
+  Structuring 'GENERAL_G_25'
+  Mapping 'GENERAL_G_25'
+  Structuring 'GENERAL_G_24'
+  Mapping 'GENERAL_G_24'
+  Structuring 'GENERAL_G_23'
+  Mapping 'GENERAL_G_23'
+  Structuring 'GENERAL_G_22'
+  Mapping 'GENERAL_G_22'
+  Structuring 'GENERAL_G_21'
+  Mapping 'GENERAL_G_21'
+  Structuring 'GENERAL_G_20'
+  Mapping 'GENERAL_G_20'
+  Structuring 'GENERAL_G_19'
+  Mapping 'GENERAL_G_19'
+  Structuring 'GENERAL_G_18'
+  Mapping 'GENERAL_G_18'
+  Structuring 'GENERAL_G_17'
+  Mapping 'GENERAL_G_17'
+  Structuring 'GENERAL_G_16'
+  Mapping 'GENERAL_G_16'
+  Structuring 'GENERAL_G_15'
+  Mapping 'GENERAL_G_15'
+  Structuring 'GENERAL_G_14'
+  Mapping 'GENERAL_G_14'
+  Structuring 'GENERAL_G_13'
+  Mapping 'GENERAL_G_13'
+  Structuring 'GENERAL_G_12'
+  Mapping 'GENERAL_G_12'
+  Structuring 'GENERAL_G_11'
+  Mapping 'GENERAL_G_11'
+  Structuring 'GENERAL_G_10'
+  Mapping 'GENERAL_G_10'
+  Structuring 'GENERAL_G_9'
+  Mapping 'GENERAL_G_9'
+  Structuring 'GENERAL_G_8'
+  Mapping 'GENERAL_G_8'
+  Structuring 'GENERAL_G_7'
+  Mapping 'GENERAL_G_7'
+  Structuring 'GENERAL_G_6'
+  Mapping 'GENERAL_G_6'
+  Structuring 'GENERAL_G_5'
+  Mapping 'GENERAL_G_5'
+  Structuring 'GENERAL_G_4'
+  Mapping 'GENERAL_G_4'
+  Structuring 'GENERAL_G_3'
+  Mapping 'GENERAL_G_3'
+  Structuring 'GENERAL_G_2'
+  Mapping 'GENERAL_G_2'
+  Structuring 'GENERAL_G_1'
+  Mapping 'GENERAL_G_1'
+  Structuring 'PG_block_127'
+  Mapping 'PG_block_127'
+  Structuring 'PG_block_126'
+  Mapping 'PG_block_126'
+  Structuring 'PG_block_125'
+  Mapping 'PG_block_125'
+  Structuring 'PG_block_124'
+  Mapping 'PG_block_124'
+  Structuring 'PG_block_123'
+  Mapping 'PG_block_123'
+  Structuring 'PG_block_122'
+  Mapping 'PG_block_122'
+  Structuring 'PG_block_121'
+  Mapping 'PG_block_121'
+  Structuring 'PG_block_120'
+  Mapping 'PG_block_120'
+  Structuring 'PG_block_119'
+  Mapping 'PG_block_119'
+  Structuring 'PG_block_118'
+  Mapping 'PG_block_118'
+  Structuring 'PG_block_117'
+  Mapping 'PG_block_117'
+  Structuring 'PG_block_116'
+  Mapping 'PG_block_116'
+  Structuring 'PG_block_115'
+  Mapping 'PG_block_115'
+  Structuring 'PG_block_114'
+  Mapping 'PG_block_114'
+  Structuring 'PG_block_113'
+  Mapping 'PG_block_113'
+  Structuring 'PG_block_112'
+  Mapping 'PG_block_112'
+  Structuring 'PG_block_111'
+  Mapping 'PG_block_111'
+  Structuring 'PG_block_110'
+  Mapping 'PG_block_110'
+  Structuring 'PG_block_109'
+  Mapping 'PG_block_109'
+  Structuring 'PG_block_108'
+  Mapping 'PG_block_108'
+  Structuring 'PG_block_107'
+  Mapping 'PG_block_107'
+  Structuring 'PG_block_106'
+  Mapping 'PG_block_106'
+  Structuring 'PG_block_105'
+  Mapping 'PG_block_105'
+  Structuring 'PG_block_104'
+  Mapping 'PG_block_104'
+  Structuring 'PG_block_103'
+  Mapping 'PG_block_103'
+  Structuring 'PG_block_102'
+  Mapping 'PG_block_102'
+  Structuring 'PG_block_101'
+  Mapping 'PG_block_101'
+  Structuring 'PG_block_100'
+  Mapping 'PG_block_100'
+  Structuring 'PG_block_99'
+  Mapping 'PG_block_99'
+  Structuring 'PG_block_98'
+  Mapping 'PG_block_98'
+  Structuring 'PG_block_97'
+  Mapping 'PG_block_97'
+  Structuring 'PG_block_96'
+  Mapping 'PG_block_96'
+  Structuring 'PG_block_95'
+  Mapping 'PG_block_95'
+  Structuring 'PG_block_94'
+  Mapping 'PG_block_94'
+  Structuring 'PG_block_93'
+  Mapping 'PG_block_93'
+  Structuring 'PG_block_92'
+  Mapping 'PG_block_92'
+  Structuring 'PG_block_91'
+  Mapping 'PG_block_91'
+  Structuring 'PG_block_90'
+  Mapping 'PG_block_90'
+  Structuring 'PG_block_89'
+  Mapping 'PG_block_89'
+  Structuring 'PG_block_88'
+  Mapping 'PG_block_88'
+  Structuring 'PG_block_87'
+  Mapping 'PG_block_87'
+  Structuring 'PG_block_86'
+  Mapping 'PG_block_86'
+  Structuring 'PG_block_85'
+  Mapping 'PG_block_85'
+  Structuring 'PG_block_84'
+  Mapping 'PG_block_84'
+  Structuring 'PG_block_83'
+  Mapping 'PG_block_83'
+  Structuring 'PG_block_82'
+  Mapping 'PG_block_82'
+  Structuring 'PG_block_81'
+  Mapping 'PG_block_81'
+  Structuring 'PG_block_80'
+  Mapping 'PG_block_80'
+  Structuring 'PG_block_79'
+  Mapping 'PG_block_79'
+  Structuring 'PG_block_78'
+  Mapping 'PG_block_78'
+  Structuring 'PG_block_77'
+  Mapping 'PG_block_77'
+  Structuring 'PG_block_76'
+  Mapping 'PG_block_76'
+  Structuring 'PG_block_75'
+  Mapping 'PG_block_75'
+  Structuring 'PG_block_74'
+  Mapping 'PG_block_74'
+  Structuring 'PG_block_73'
+  Mapping 'PG_block_73'
+  Structuring 'PG_block_72'
+  Mapping 'PG_block_72'
+  Structuring 'PG_block_71'
+  Mapping 'PG_block_71'
+  Structuring 'PG_block_70'
+  Mapping 'PG_block_70'
+  Structuring 'PG_block_69'
+  Mapping 'PG_block_69'
+  Structuring 'PG_block_68'
+  Mapping 'PG_block_68'
+  Structuring 'PG_block_67'
+  Mapping 'PG_block_67'
+  Structuring 'PG_block_66'
+  Mapping 'PG_block_66'
+  Structuring 'PG_block_65'
+  Mapping 'PG_block_65'
+  Structuring 'PG_block_64'
+  Mapping 'PG_block_64'
+  Structuring 'PG_block_63'
+  Mapping 'PG_block_63'
+  Structuring 'PG_block_62'
+  Mapping 'PG_block_62'
+  Structuring 'PG_block_61'
+  Mapping 'PG_block_61'
+  Structuring 'PG_block_60'
+  Mapping 'PG_block_60'
+  Structuring 'PG_block_59'
+  Mapping 'PG_block_59'
+  Structuring 'PG_block_58'
+  Mapping 'PG_block_58'
+  Structuring 'PG_block_57'
+  Mapping 'PG_block_57'
+  Structuring 'PG_block_56'
+  Mapping 'PG_block_56'
+  Structuring 'PG_block_55'
+  Mapping 'PG_block_55'
+  Structuring 'PG_block_54'
+  Mapping 'PG_block_54'
+  Structuring 'PG_block_53'
+  Mapping 'PG_block_53'
+  Structuring 'PG_block_52'
+  Mapping 'PG_block_52'
+  Structuring 'PG_block_51'
+  Mapping 'PG_block_51'
+  Structuring 'PG_block_50'
+  Mapping 'PG_block_50'
+  Structuring 'PG_block_49'
+  Mapping 'PG_block_49'
+  Structuring 'PG_block_48'
+  Mapping 'PG_block_48'
+  Structuring 'PG_block_47'
+  Mapping 'PG_block_47'
+  Structuring 'PG_block_46'
+  Mapping 'PG_block_46'
+  Structuring 'PG_block_45'
+  Mapping 'PG_block_45'
+  Structuring 'PG_block_44'
+  Mapping 'PG_block_44'
+  Structuring 'PG_block_43'
+  Mapping 'PG_block_43'
+  Structuring 'PG_block_42'
+  Mapping 'PG_block_42'
+  Structuring 'PG_block_41'
+  Mapping 'PG_block_41'
+  Structuring 'PG_block_40'
+  Mapping 'PG_block_40'
+  Structuring 'PG_block_39'
+  Mapping 'PG_block_39'
+  Structuring 'PG_block_38'
+  Mapping 'PG_block_38'
+  Structuring 'PG_block_37'
+  Mapping 'PG_block_37'
+  Structuring 'PG_block_36'
+  Mapping 'PG_block_36'
+  Structuring 'PG_block_35'
+  Mapping 'PG_block_35'
+  Structuring 'PG_block_34'
+  Mapping 'PG_block_34'
+  Structuring 'PG_block_33'
+  Mapping 'PG_block_33'
+  Structuring 'PG_block_32'
+  Mapping 'PG_block_32'
+  Structuring 'PG_block_31'
+  Mapping 'PG_block_31'
+  Structuring 'PG_block_30'
+  Mapping 'PG_block_30'
+  Structuring 'PG_block_29'
+  Mapping 'PG_block_29'
+  Structuring 'PG_block_28'
+  Mapping 'PG_block_28'
+  Structuring 'PG_block_27'
+  Mapping 'PG_block_27'
+  Structuring 'PG_block_26'
+  Mapping 'PG_block_26'
+  Structuring 'PG_block_25'
+  Mapping 'PG_block_25'
+  Structuring 'PG_block_24'
+  Mapping 'PG_block_24'
+  Structuring 'PG_block_23'
+  Mapping 'PG_block_23'
+  Structuring 'PG_block_22'
+  Mapping 'PG_block_22'
+  Structuring 'PG_block_21'
+  Mapping 'PG_block_21'
+  Structuring 'PG_block_20'
+  Mapping 'PG_block_20'
+  Structuring 'PG_block_19'
+  Mapping 'PG_block_19'
+  Structuring 'PG_block_18'
+  Mapping 'PG_block_18'
+  Structuring 'PG_block_17'
+  Mapping 'PG_block_17'
+  Structuring 'PG_block_16'
+  Mapping 'PG_block_16'
+  Structuring 'PG_block_15'
+  Mapping 'PG_block_15'
+  Structuring 'PG_block_14'
+  Mapping 'PG_block_14'
+  Structuring 'PG_block_13'
+  Mapping 'PG_block_13'
+  Structuring 'PG_block_12'
+  Mapping 'PG_block_12'
+  Structuring 'PG_block_11'
+  Mapping 'PG_block_11'
+  Structuring 'PG_block_10'
+  Mapping 'PG_block_10'
+  Structuring 'PG_block_9'
+  Mapping 'PG_block_9'
+  Structuring 'PG_block_8'
+  Mapping 'PG_block_8'
+  Structuring 'PG_block_7'
+  Mapping 'PG_block_7'
+  Structuring 'PG_block_6'
+  Mapping 'PG_block_6'
+  Structuring 'PG_block_5'
+  Mapping 'PG_block_5'
+  Structuring 'PG_block_4'
+  Mapping 'PG_block_4'
+  Structuring 'PG_block_3'
+  Mapping 'PG_block_3'
+  Structuring 'PG_block_2'
+  Mapping 'PG_block_2'
+  Structuring 'PG_block_1'
+  Mapping 'PG_block_1'
+  Structuring 'REG_GEN_NBIT32_18'
+  Mapping 'REG_GEN_NBIT32_18'
+  Structuring 'REG_GEN_NBIT32_17'
+  Mapping 'REG_GEN_NBIT32_17'
+  Structuring 'REG_GEN_NBIT32_16'
+  Mapping 'REG_GEN_NBIT32_16'
+  Structuring 'REG_GEN_NBIT32_15'
+  Mapping 'REG_GEN_NBIT32_15'
+  Structuring 'REG_GEN_NBIT32_14'
+  Mapping 'REG_GEN_NBIT32_14'
+  Structuring 'REG_GEN_NBIT32_13'
+  Mapping 'REG_GEN_NBIT32_13'
+  Structuring 'REG_GEN_NBIT32_12'
+  Mapping 'REG_GEN_NBIT32_12'
+  Structuring 'REG_GEN_NBIT32_11'
+  Mapping 'REG_GEN_NBIT32_11'
+  Structuring 'REG_GEN_NBIT32_10'
+  Mapping 'REG_GEN_NBIT32_10'
+  Structuring 'REG_GEN_NBIT32_9'
+  Mapping 'REG_GEN_NBIT32_9'
+  Structuring 'REG_GEN_NBIT32_8'
+  Mapping 'REG_GEN_NBIT32_8'
+  Structuring 'REG_GEN_NBIT32_7'
+  Mapping 'REG_GEN_NBIT32_7'
+  Structuring 'REG_GEN_NBIT32_6'
+  Mapping 'REG_GEN_NBIT32_6'
+  Structuring 'REG_GEN_NBIT32_5'
+  Mapping 'REG_GEN_NBIT32_5'
+  Structuring 'REG_GEN_NBIT32_4'
+  Mapping 'REG_GEN_NBIT32_4'
+  Structuring 'REG_GEN_NBIT32_3'
+  Mapping 'REG_GEN_NBIT32_3'
+  Structuring 'REG_GEN_NBIT32_2'
+  Mapping 'REG_GEN_NBIT32_2'
+  Structuring 'REG_GEN_NBIT32_1'
+  Mapping 'REG_GEN_NBIT32_1'
+  Structuring 'MUX21_GENERIC_NBIT32_8'
+  Mapping 'MUX21_GENERIC_NBIT32_8'
+  Structuring 'MUX21_GENERIC_NBIT32_7'
+  Mapping 'MUX21_GENERIC_NBIT32_7'
+  Structuring 'MUX21_GENERIC_NBIT32_6'
+  Mapping 'MUX21_GENERIC_NBIT32_6'
+  Structuring 'MUX21_GENERIC_NBIT32_5'
+  Mapping 'MUX21_GENERIC_NBIT32_5'
+  Structuring 'MUX21_GENERIC_NBIT32_4'
+  Mapping 'MUX21_GENERIC_NBIT32_4'
+  Structuring 'MUX21_GENERIC_NBIT32_3'
+  Mapping 'MUX21_GENERIC_NBIT32_3'
+  Structuring 'MUX21_GENERIC_NBIT32_2'
+  Mapping 'MUX21_GENERIC_NBIT32_2'
+  Structuring 'MUX21_GENERIC_NBIT32_1'
+  Mapping 'MUX21_GENERIC_NBIT32_1'
+  Structuring 'flip_flop_1'
+  Mapping 'flip_flop_1'
+  Structuring 'FA_0'
+  Mapping 'FA_0'
+  Structuring 'MUX21_GENERIC_NBIT4_0'
+  Mapping 'MUX21_GENERIC_NBIT4_0'
+  Structuring 'GENERAL_PG_0'
+  Mapping 'GENERAL_PG_0'
+  Structuring 'GENERAL_G_0'
+  Mapping 'GENERAL_G_0'
+  Structuring 'PG_block_0'
+  Mapping 'PG_block_0'
+  Structuring 'mux11to1_nbit32'
+  Mapping 'mux11to1_nbit32'
+  Structuring 'comparator'
+  Mapping 'comparator'
+  Structuring 'shifter_dx_nbit32'
+  Mapping 'shifter_dx_nbit32'
+  Structuring 'shifter_sx_nbit32'
+  Mapping 'shifter_sx_nbit32'
+  Structuring 'xor_gate_nbit32'
+  Mapping 'xor_gate_nbit32'
+  Structuring 'or_gate_nbit32'
+  Mapping 'or_gate_nbit32'
+  Structuring 'and_gate_nbit32'
+  Mapping 'and_gate_nbit32'
+  Structuring 'branch_block_nbit32'
+  Mapping 'branch_block_nbit32'
+  Structuring 'alu'
+  Mapping 'alu'
+  Structuring 'register_file_nbit_reg32_n_reg32_nbit_addr5'
+  Mapping 'register_file_nbit_reg32_n_reg32_nbit_addr5'
+  Structuring 'REG_GEN_NBIT32_0'
+  Mapping 'REG_GEN_NBIT32_0'
+  Structuring 'MUX21_GENERIC_NBIT32_0'
+  Mapping 'MUX21_GENERIC_NBIT32_0'
+  Structuring 'dlx_cu_MICROCODE_MEM_SIZE45_FUNC_SIZE11_OP_CODE_SIZE6_IR_SIZE32_CW_SIZE13'
+  Mapping 'dlx_cu_MICROCODE_MEM_SIZE45_FUNC_SIZE11_OP_CODE_SIZE6_IR_SIZE32_CW_SIZE13'
+  Structuring 'flip_flop_0'
+  Mapping 'flip_flop_0'
+  Structuring 'DLX_nbit32'
+  Mapping 'DLX_nbit32'
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:38   14593.6      0.00       0.0    2804.9                          
+    0:00:38   14593.6      0.00       0.0    2804.9                          
+    0:00:38   14593.6      0.00       0.0    2804.9                          
+    0:00:38   14593.6      0.00       0.0    2804.9                          
+    0:00:38   14593.6      0.00       0.0    2804.9                          
+    0:00:39   14555.8      0.00       0.0    2766.0                          
+    0:00:39   14555.8      0.00       0.0    2766.0                          
+    0:00:39   14555.8      0.00       0.0    2766.0                          
+    0:00:39   14555.8      0.00       0.0    2766.0                          
+    0:00:39   14555.8      0.00       0.0    2766.0                          
+    0:00:40   14574.1      0.00       0.0    1954.1                          
+    0:00:40   14580.3      0.00       0.0    1775.6                          
+    0:00:40   14588.0      0.00       0.0    1594.2                          
+    0:00:40   14595.4      0.00       0.0    1425.8                          
+    0:00:41   14599.4      0.00       0.0    1288.6                          
+    0:00:41   14603.9      0.00       0.0    1156.2                          
+    0:00:41   14607.1      0.00       0.0    1064.6                          
+    0:00:41   14609.5      0.00       0.0     979.0                          
+    0:00:41   14610.1      0.00       0.0     964.7                          
+    0:00:41   14610.1      0.00       0.0     964.7                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:41   14610.1      0.00       0.0     964.7                          
+    0:00:41   14610.1      0.00       0.0     964.7                          
+    0:00:41   14610.1      0.00       0.0     964.7                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:41   14610.1      0.00       0.0     964.7                          
+    0:00:42   14641.2      0.00       0.0      72.1 DataPath_dlx/IDU/REGISTERS/N356
+    0:00:42   14643.8      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:42   14643.8      0.00       0.0       0.0                          
+    0:00:42   14643.8      0.00       0.0       0.0                          
+    0:00:43   14643.6      0.00       0.0       0.0                          
+    0:00:43   14643.6      0.00       0.0       0.0                          
+    0:00:43   14643.6      0.00       0.0       0.0                          
+    0:00:43   14643.6      0.00       0.0       0.0                          
+    0:00:43   14643.6      0.00       0.0       0.0                          
+    0:00:44   14638.0      0.00       0.0       0.0                          
+    0:00:44   14638.0      0.00       0.0       0.0                          
+    0:00:44   14638.0      0.00       0.0       0.0                          
+    0:00:44   14638.0      0.00       0.0       0.0                          
+    0:00:44   14638.0      0.00       0.0       0.0                          
+    0:00:44   14638.0      0.00       0.0       0.0                          
+Loading db file '/home/mariagrazia.graziano/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+
+  Optimization Complete
+  ---------------------
+
+Information: There are 743 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'dlx_cu_MICROCODE_MEM_SIZE45_FUNC_SIZE11_OP_CODE_SIZE6_IR_SIZE32_CW_SIZE13'
+  Processing 'flip_flop_1'
+  Processing 'MUX21_GENERIC_NBIT32_3'
+  Processing 'writeBackUnit_nbit32'
+  Processing 'REG_GEN_NBIT32_1'
+  Processing 'REG_GEN_NBIT32_2'
+  Processing 'REG_GEN_NBIT32_3'
+  Processing 'MUX21_GENERIC_NBIT32_6'
+  Processing 'branch_block_nbit32'
+  Processing 'memoryUnit_nbit32'
+  Processing 'REG_GEN_NBIT32_4'
+  Processing 'REG_GEN_NBIT32_5'
+  Processing 'MUX21_GENERIC_NBIT4_17'
+  Processing 'MUX21_GENERIC_NBIT4_18'
+  Processing 'FA_65'
+  Processing 'RCA_NBIT4_17'
+  Processing 'CSblock_NBIT4_9'
+  Processing 'SUMGEN_NBIT32_NBLOCKS8_2'
+  Processing 'GENERAL_G_11'
+  Processing 'GENERAL_PG_28'
+  Processing 'PG_block_33'
+  Processing 'CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4_2'
+  Processing 'P4_ADDER_NBIT32_NBIT_PER_BLOCK4_2'
+  Processing 'REG_GEN_NBIT32_8'
+  Processing 'REG_GEN_NBIT32_9'
+  Processing 'mux11to1_nbit32'
+  Processing 'comparator_DW01_cmp6_0'
+  Processing 'comparator'
+  Processing 'shifter_dx_nbit32'
+  Processing 'shifter_sx_nbit32'
+  Processing 'xor_gate_nbit32'
+  Processing 'or_gate_nbit32'
+  Processing 'and_gate_nbit32'
+  Processing 'alu'
+  Processing 'executionUnit_nbit32'
+  Processing 'REG_GEN_NBIT32_12'
+  Processing 'REG_GEN_NBIT32_14'
+  Processing 'sign_extension_sign_init16_sign_ext32'
+  Processing 'register_file_nbit_reg32_n_reg32_nbit_addr5'
+  Processing 'sign_extension_sign_init26_sign_ext32'
+  Processing 'decodeUnit_nbit32'
+  Processing 'CSblock_NBIT4_0'
+  Processing 'SUMGEN_NBIT32_NBLOCKS8_0'
+  Processing 'P4_ADDER_NBIT32_NBIT_PER_BLOCK4_0'
+  Processing 'MUX21_GENERIC_NBIT32_0'
+  Processing 'fetchUnit_nbit32'
+  Processing 'datapath_nbit32'
+  Processing 'DLX_nbit32'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:20   19904.8      0.95      21.0     995.6                          
+    0:00:20   19904.8      0.95      21.0     995.6                          
+    0:00:20   19959.8      0.95      21.0     917.4                          
+    0:00:21   20494.2      0.95      20.8     272.8                          
+    0:00:31   20506.7      0.37      10.1      17.9                          
+    0:00:31   20506.7      0.37      10.1      17.9                          
+    0:00:31   20506.7      0.37      10.1      17.9                          
+    0:00:32   20505.7      0.37      10.1      17.9                          
+    0:00:32   20505.7      0.37      10.1      17.9                          
+    0:00:39   15350.3      0.37       6.2       0.0                          
+    0:00:40   15357.5      0.36       6.0       0.0                          
+    0:00:43   15361.5      0.34       5.5       0.0                          
+    0:00:44   15362.0      0.33       5.5       0.0                          
+    0:00:45   15366.0      0.33       5.4       0.0                          
+    0:00:45   15369.7      0.31       5.4       0.0                          
+    0:00:46   15371.9      0.31       5.2       0.0                          
+    0:00:46   15372.1      0.31       5.1       0.0                          
+    0:00:47   15372.1      0.31       5.0       0.0                          
+    0:00:47   15372.1      0.31       5.0       0.0                          
+    0:00:47   15372.1      0.31       5.0       0.0                          
+    0:00:47   15372.1      0.31       5.0       0.0                          
+    0:00:47   15372.1      0.31       5.0       0.0                          
+    0:00:47   15372.1      0.31       5.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:47   15372.1      0.31       5.0       0.0                          
+    0:00:47   15372.1      0.30       4.9       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:48   15373.5      0.30       4.9       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:48   15372.9      0.26       4.9       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:48   15375.3      0.25       4.8       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[31]/D
+    0:00:49   15377.7      0.25       4.8       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:49   15377.7      0.24       4.8       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:49   15378.5      0.24       4.8       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:50   15379.3      0.23       4.8       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:50   15381.2      0.23       4.8       0.0                          
+    0:00:51   15391.3      0.23       4.8       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:51   15390.5      0.23       4.8       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:52   15396.9      0.22       4.8       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:53   15429.9      0.22       4.7       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:00:54   15434.1      0.20       4.3       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[12]/D
+    0:00:54   15458.3      0.18       3.6       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[5]/D
+    0:00:55   15474.8      0.17       3.5       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[31]/D
+    0:00:55   15477.5      0.15       3.4       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[12]/D
+    0:00:55   15481.2      0.14       3.2       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[12]/D
+    0:00:55   15486.5      0.14       3.0       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[31]/D
+    0:00:56   15497.4      0.12       2.7       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[31]/D
+    0:00:56   15499.3      0.11       2.1       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[20]/D
+    0:00:56   15503.0      0.10       2.0       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[31]/D
+    0:00:57   15509.4      0.10       1.9       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[25]/D
+    0:00:57   15515.0      0.09       1.7       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[6]/D
+    0:00:57   15521.1      0.08       1.4       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[11]/D
+    0:00:58   15517.6      0.08       1.3       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[28]/D
+    0:00:58   15524.3      0.07       1.1       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[31]/D
+    0:00:58   15529.1      0.06       1.0       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[4]/D
+    0:00:59   15542.6      0.05       0.7       0.0 DataPath_dlx/EXE/reg_alu/Q_reg[18]/D
+    0:00:59   15550.1      0.04       0.5      24.9 DataPath_dlx/EXE/reg_alu/Q_reg[31]/D
+    0:01:00   15554.1      0.03       0.4      24.9 DataPath_dlx/EXE/reg_alu/Q_reg[2]/D
+    0:01:00   15563.9      0.03       0.4      41.9 DataPath_dlx/EXE/reg_alu/Q_reg[31]/D
+    0:01:00   15569.8      0.03       0.3      41.9 DataPath_dlx/EXE/reg_alu/Q_reg[11]/D
+    0:01:00   15571.9      0.02       0.3      41.9 DataPath_dlx/EXE/reg_alu/Q_reg[2]/D
+    0:01:01   15574.0      0.02       0.2      41.9 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:01:01   15577.2      0.02       0.2      41.9 DataPath_dlx/EXE/reg_alu/Q_reg[0]/D
+    0:01:01   15579.1      0.02       0.1      41.9 DataPath_dlx/EXE/reg_alu/Q_reg[31]/D
+    0:01:02   15589.2      0.01       0.0      41.9 DataPath_dlx/EXE/reg_alu/Q_reg[2]/D
+    0:01:02   15593.7      0.00       0.0      41.9 DataPath_dlx/EXE/reg_alu/Q_reg[12]/D
+    0:01:02   15599.8      0.00       0.0      41.9                          
+    0:01:03   15598.8      0.00       0.0      41.9                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:03   15598.8      0.00       0.0      41.9                          
+    0:01:03   15582.3      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:03   15582.3      0.00       0.0       0.0                          
+    0:01:03   15582.3      0.00       0.0       0.0                          
+    0:01:06   15538.7      0.01       0.0       0.0                          
+    0:01:07   15520.8      0.01       0.0       0.0                          
+    0:01:07   15508.6      0.01       0.0       0.0                          
+    0:01:07   15501.2      0.00       0.0       0.0                          
+    0:01:07   15495.3      0.00       0.0       0.0                          
+    0:01:07   15495.3      0.00       0.0       0.0                          
+    0:01:08   15495.3      0.00       0.0       0.0                          
+    0:01:08   15495.6      0.00       0.0       0.0                          
+    0:01:08   15424.0      0.01       0.0       0.0                          
+    0:01:08   15417.1      0.01       0.0       0.0                          
+    0:01:09   15413.9      0.01       0.0       0.0                          
+    0:01:09   15413.9      0.01       0.0       0.0                          
+    0:01:09   15413.9      0.01       0.0       0.0                          
+    0:01:09   15413.9      0.01       0.0       0.0                          
+    0:01:09   15413.9      0.01       0.0       0.0                          
+    0:01:09   15413.9      0.01       0.0       0.0                          
+    0:01:09   15414.4      0.00       0.0       0.0                          
+Loading db file '/home/mariagrazia.graziano/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+
+  Optimization Complete
+  ---------------------

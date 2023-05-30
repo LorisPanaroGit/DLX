@@ -1,0 +1,98 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : DLX_nbit32
+Version: F-2011.09-SP3
+Date   : Mon Jul 11 15:30:57 2022
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: DataPath_dlx/IDU/ID_reg_RD_data_2/Q_reg[12]
+              (rising edge-triggered flip-flop clocked by Clk)
+  Endpoint: DataPath_dlx/EXE/reg_alu/Q_reg[6]
+            (rising edge-triggered flip-flop clocked by Clk)
+  Path Group: Clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  DLX_nbit32         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock Clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DataPath_dlx/IDU/ID_reg_RD_data_2/Q_reg[12]/CK (DFFR_X1)
+                                                          0.00       0.00 r
+  DataPath_dlx/IDU/ID_reg_RD_data_2/Q_reg[12]/Q (DFFR_X1)
+                                                          0.11       0.11 r
+  DataPath_dlx/IDU/ID_reg_RD_data_2/Q[12] (REG_GEN_NBIT32_11)
+                                                          0.00       0.11 r
+  DataPath_dlx/IDU/RD_data_2_out[12] (decodeUnit_nbit32)
+                                                          0.00       0.11 r
+  DataPath_dlx/EXE/r2[12] (executionUnit_nbit32)          0.00       0.11 r
+  DataPath_dlx/EXE/lo_mux/A[12] (MUX21_GENERIC_NBIT32_8)
+                                                          0.00       0.11 r
+  DataPath_dlx/EXE/lo_mux/U20/ZN (AOI22_X1)               0.03       0.14 f
+  DataPath_dlx/EXE/lo_mux/U9/ZN (INV_X1)                  0.07       0.20 r
+  DataPath_dlx/EXE/lo_mux/Y[12] (MUX21_GENERIC_NBIT32_8)
+                                                          0.00       0.20 r
+  DataPath_dlx/EXE/alu_dut/data_in2[12] (alu)             0.00       0.20 r
+  DataPath_dlx/EXE/alu_dut/sl/r2[12] (shifter_sx_nbit32)
+                                                          0.00       0.20 r
+  DataPath_dlx/EXE/alu_dut/sl/U96/ZN (NOR3_X1)            0.04       0.24 f
+  DataPath_dlx/EXE/alu_dut/sl/U98/ZN (INV_X1)             0.03       0.27 r
+  DataPath_dlx/EXE/alu_dut/sl/U97/ZN (NOR2_X1)            0.02       0.29 f
+  DataPath_dlx/EXE/alu_dut/sl/U55/ZN (AND4_X2)            0.05       0.34 f
+  DataPath_dlx/EXE/alu_dut/sl/U483/ZN (NAND3_X1)          0.04       0.39 r
+  DataPath_dlx/EXE/alu_dut/sl/U49/ZN (INV_X1)             0.04       0.43 f
+  DataPath_dlx/EXE/alu_dut/sl/U182/ZN (NAND2_X1)          0.05       0.49 r
+  DataPath_dlx/EXE/alu_dut/sl/U11/ZN (INV_X1)             0.06       0.55 f
+  DataPath_dlx/EXE/alu_dut/sl/U378/ZN (NAND2_X1)          0.05       0.59 r
+  DataPath_dlx/EXE/alu_dut/sl/U254/ZN (INV_X1)            0.03       0.62 f
+  DataPath_dlx/EXE/alu_dut/sl/U241/ZN (NOR2_X1)           0.04       0.66 r
+  DataPath_dlx/EXE/alu_dut/sl/U240/ZN (NAND4_X1)          0.05       0.71 f
+  DataPath_dlx/EXE/alu_dut/sl/U349/ZN (OR4_X2)            0.12       0.83 f
+  DataPath_dlx/EXE/alu_dut/sl/U106/ZN (NOR2_X2)           0.08       0.91 r
+  DataPath_dlx/EXE/alu_dut/sl/U48/ZN (NAND2_X1)           0.06       0.98 f
+  DataPath_dlx/EXE/alu_dut/sl/U159/ZN (INV_X1)            0.04       1.02 r
+  DataPath_dlx/EXE/alu_dut/sl/U541/ZN (NAND2_X1)          0.04       1.06 f
+  DataPath_dlx/EXE/alu_dut/sl/U188/ZN (INV_X1)            0.05       1.11 r
+  DataPath_dlx/EXE/alu_dut/sl/U513/ZN (NAND4_X1)          0.05       1.16 f
+  DataPath_dlx/EXE/alu_dut/sl/U168/ZN (INV_X1)            0.04       1.20 r
+  DataPath_dlx/EXE/alu_dut/sl/U565/ZN (OAI211_X1)         0.04       1.25 f
+  DataPath_dlx/EXE/alu_dut/sl/U92/ZN (NAND3_X1)           0.03       1.28 r
+  DataPath_dlx/EXE/alu_dut/sl/data_out_reg[6]/Q (DLH_X1)
+                                                          0.05       1.33 r
+  DataPath_dlx/EXE/alu_dut/sl/data_out[6] (shifter_sx_nbit32)
+                                                          0.00       1.33 r
+  DataPath_dlx/EXE/alu_dut/mux/E[6] (mux11to1_nbit32)     0.00       1.33 r
+  DataPath_dlx/EXE/alu_dut/mux/U171/ZN (AOI22_X1)         0.03       1.35 f
+  DataPath_dlx/EXE/alu_dut/mux/U113/ZN (NAND3_X1)         0.03       1.38 r
+  DataPath_dlx/EXE/alu_dut/mux/Y[6] (mux11to1_nbit32)     0.00       1.38 r
+  DataPath_dlx/EXE/alu_dut/data_out[6] (alu)              0.00       1.38 r
+  DataPath_dlx/EXE/reg_alu/D[6] (REG_GEN_NBIT32_9)        0.00       1.38 r
+  DataPath_dlx/EXE/reg_alu/U40/ZN (INV_X1)                0.02       1.41 f
+  DataPath_dlx/EXE/reg_alu/U39/ZN (OAI22_X1)              0.05       1.45 r
+  DataPath_dlx/EXE/reg_alu/Q_reg[6]/D (DFFR_X1)           0.01       1.46 r
+  data arrival time                                                  1.46
+
+  clock Clk (rise edge)                                   1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  DataPath_dlx/EXE/reg_alu/Q_reg[6]/CK (DFFR_X1)          0.00       1.50 r
+  library setup time                                     -0.04       1.46
+  data required time                                                 1.46
+  --------------------------------------------------------------------------
+  data required time                                                 1.46
+  data arrival time                                                 -1.46
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
