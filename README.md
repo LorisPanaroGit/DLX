@@ -15,5 +15,7 @@ Example programs: A collection of DLX assembly language programs to demonstrate 
 ## Authors
 
 Fogliato Davide
+
 Panaro Loris
+
 Panigati Matteo
